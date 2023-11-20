@@ -1,0 +1,90 @@
+#root {
+  max-width: 500;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.card {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  /* max-height: 500px; */
+  overflow-y: auto;
+  background-color: #232323;
+  padding: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: 45px;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+
+.item {
+  background-color: #424242;
+  border-radius: 3px;
+  color: #ffffff;
+  width: 90%;
+  max-width: 90%;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.selected-item {
+  background-color: #999999;
+  border-radius: 3px;
+  color: #ffffff;
+  width: 90%;
+  max-width: 90%;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: bold;
+  height: 40px;
+  padding: 2px 5px;
+  display: flex;
+  align-items: center;
+}
+
+.input-container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 30px;
+  padding: 2px 5px;
+  background-color: white;
+  border-radius: 3px;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: black;
+  outline: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
